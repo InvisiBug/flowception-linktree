@@ -1,0 +1,22 @@
+{
+  "name": "FlickerFlow",
+  "avatar": "someImage",
+  "links": [
+    {
+      "title": "Website",
+      "url": "flickerflow.com"
+    },
+    {
+      "title": "Youtube",
+      "url": "youtube.com"
+    },
+    {
+      "title": "Instagram",
+      "url": "instagram.com"
+    },
+    {
+      "title": "tiktok",
+      "url": "someurl.com"
+    }
+  ]
+}
