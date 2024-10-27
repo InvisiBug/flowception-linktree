@@ -1,22 +1,26 @@
 {
   "name": "FlickerFlow",
-  "avatar": "someImage",
+  "avatar": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj",
   "links": [
     {
       "title": "Website",
-      "url": "flickerflow.com"
+      "url": "flickerflow.com",
+      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
     },
     {
       "title": "Youtube",
-      "url": "youtube.com"
+      "url": "youtube.com",
+      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
     },
     {
       "title": "Instagram",
-      "url": "instagram.com"
+      "url": "instagram.com",
+      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
     },
     {
       "title": "tiktok",
-      "url": "someurl.com"
+      "url": "someurl.com",
+      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
     }
   ]
 }
