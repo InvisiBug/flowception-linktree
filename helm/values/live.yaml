@@ -2,8 +2,22 @@ name: flowception-linktree
 
 namespace: flowception
 env:
-  APP_VERSION: 722318256f0d2c95a6fa86ea795eb4f10feab5d1
+  APP_VERSION: 1a46bc582bcc06615bd9699a0162ab2591aefe95
 
 deployment:
   - name: flowception-linktree
     image: invisibug/flowception-linktree
+
+ingress:
+  - name: linktree.flowception.com
+    selector: flowception-linktree
+    path: /.*
+    port: 80
+    host: linktree.flowception.com
+
+
+service:
+  loadBalancer:
+    - name: flowception-linktree
+      selector: flowception-linktree
+      port: 3000
