@@ -1,0 +1,9 @@
+name: flowception-linktree
+
+namespace: flowception
+env:
+  APP_VERSION: 722318256f0d2c95a6fa86ea795eb4f10feab5d1
+
+deployment:
+  - name: flowception-linktree
+    image: invisibug/flowception-linktree
