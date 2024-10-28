@@ -1,7 +1,73 @@
 import Image from "next/image";
+import data from "@/data/links.json";
+import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold text-red-700 underline ">Hello world!</h1>
+    <div className="drop-shadow- mx-auto mt-16 flex w-full flex-col items-center px-8">
+      <Image
+        className="rounded-full"
+        alt={data.name}
+        src={data.avatar}
+        width={96}
+        height={96}
+      />
+
+      <h1 className="mb-8 mt-4 text-xl font-bold">{data.name}</h1>
+
+      {data.links.map((link) => {
+        return <LinkCard key={link.title} {...link}></LinkCard>;
+      })}
+
+      <div className="mt-8 flex items-center gap-4">
+        {data.socials.map((link) => {
+          if (link.href.includes("instagram")) {
+            return <InstagramIcon key={link.title} />;
+          }
+          if (link.href.includes("tictok")) {
+            return <TikTokIcon key={link.title} />;
+          }
+          if (link.href.includes("github")) {
+            return <GithubIcon key={link.title} />;
+          }
+        })}
+      </div>
+    </div>
   );
 }
+
+const LinkCard = ({
+  href,
+  title,
+  image,
+}: {
+  href: string;
+  title: string;
+  image?: string;
+}) => {
+  return (
+    <a
+      href={href}
+      target={"_blank"}
+      rel="noopener noreferrer"
+      className="mb-3 flex w-full max-w-3xl items-center rounded-md bg-gray-100 p-1 drop-shadow-2xl transition-all hover:scale-105"
+    >
+      <div className="flex w-full text-center">
+        <div className="flex h-10 w-10">
+          {image && (
+            <Image
+              className="rounded-md"
+              alt={data.name}
+              src={image}
+              width={40}
+              height={40}
+            />
+          )}
+        </div>
+        <h2 className="-ml-10 flex w-full items-center justify-center font-semibold text-gray-700">
+          {title}
+        </h2>
+      </div>
+    </a>
+  );
+};

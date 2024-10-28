@@ -1,26 +1,36 @@
 {
-  "name": "FlickerFlow",
+  "name": "Flowception",
   "avatar": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj",
   "links": [
     {
-      "title": "Website",
-      "url": "flickerflow.com",
+      "title": "Our website",
+      "href": "Flowception.com",
       "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
     },
     {
       "title": "Youtube",
-      "url": "youtube.com",
-      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
+      "href": "youtube.com",
+      "image": "https://simpleicons.org/icons/youtube.svg"
     },
     {
       "title": "Instagram",
-      "url": "instagram.com",
-      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
+      "href": "instagram.com",
+      "image": "https://simpleicons.org/icons/instagram.svg"
     },
     {
-      "title": "tiktok",
-      "url": "someurl.com",
-      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
+      "title": "TikTok",
+      "href": "someurl.com",
+      "image": "https://simpleicons.org/icons/tiktok.svg"
+    }
+  ],
+  "socials": [
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/flowception/"
+    },
+    {
+      "title": "Github",
+      "href": "https://www.github.com/flowception/"
     }
   ]
 }
