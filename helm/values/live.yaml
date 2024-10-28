@@ -9,11 +9,11 @@ deployment:
     image: invisibug/flowception-linktree
 
 ingress:
-  - name: linktree.flowception.com
+  - name: linktree.flowception.co.uk
     selector: flowception-linktree
     path: /.*
     port: 80
-    host: linktree.flowception.com
+    host: linktree.flowception.co.uk
 
 
 service:
