@@ -1,6 +1,6 @@
 import Image from "next/image";
 import data from "@/data/links.json";
-import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
+// import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
 
 export default function Home() {
   return (
