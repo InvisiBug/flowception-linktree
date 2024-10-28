@@ -1,6 +1,6 @@
 import Image from "next/image";
 import data from "@/data/links.json";
-import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
+// import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
 
 export default function Home() {
   return (
@@ -13,15 +13,16 @@ export default function Home() {
         return <LinkCard key={link.title} {...link}></LinkCard>;
       })}
 
-      <div className="mt-8 flex items-center gap-4">
-        {data.socials.map((link) => {
-          return (
-            <a href={link.href} target="_blank" rel="noopener noreferrer" key={link.title}>
-              {link.href.includes("instagram") ? <InstagramIcon key={link.title} /> : link.href.includes("github") ? <GithubIcon key={link.title} /> : link.href.includes("tiktok") ? <TikTokIcon key={link.title} /> : null}
-            </a>
-          );
-        })}
-      </div>
+      {/* <div className="mt-8 flex items-center gap-4">
+        {data.socials &&
+          data.socials.map((link) => {
+            return (
+              <a href={link.href} target="_blank" rel="noopener noreferrer" key={link.title}>
+                {link.href.includes("instagram") ? <InstagramIcon key={link.title} /> : link.href.includes("github") ? <GithubIcon key={link.title} /> : link.href.includes("tiktok") ? <TikTokIcon key={link.title} /> : null}
+              </a>
+            );
+          })}
+      </div> */}
     </div>
   );
 }

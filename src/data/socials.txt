@@ -1,0 +1,14 @@
+"socials": [
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/flow.ception/"
+    },
+    {
+      "title": "Github",
+      "href": "https://www.github.com/flowception/"
+    },
+    {
+      "title": "TikTok",
+      "href": "https://www.tiktok.com/@flowception/"
+    }
+  ]
