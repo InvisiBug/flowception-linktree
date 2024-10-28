@@ -8,17 +8,16 @@ deployment:
   - name: flowception-linktree
     image: invisibug/flowception-linktree
 
-ingress:
-  - name: linktree.flowception.co.uk
-    selector: flowception-linktree
-    path: /
-    port: 3000
-    host: linktree.flowception.co.uk
-
-
 service:
   loadBalancer:
     - name: flowception-linktree
       selector: flowception-linktree
       port: 80
       containerPort: 3000
+
+ingress:
+  - name: linktree.flowception.co.uk
+    selector: flowception-linktree
+    path: /
+    port: 3000
+    host: linktree.flowception.co.uk

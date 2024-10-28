@@ -3,34 +3,38 @@
   "avatar": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj",
   "links": [
     {
-      "title": "Our website",
-      "href": "Flowception.com",
+      "title": "Our website (Coming Soon)",
+      "href": "",
       "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
     },
     {
       "title": "Youtube",
-      "href": "youtube.com",
+      "href": "https://www.youtube.com/channel/UCqTfIrY22Mw9YyMKM1wNNqg",
       "image": "https://simpleicons.org/icons/youtube.svg"
     },
     {
       "title": "Instagram",
-      "href": "instagram.com",
+      "href": "https://www.instagram.com/flow.ception",
       "image": "https://simpleicons.org/icons/instagram.svg"
     },
     {
       "title": "TikTok",
-      "href": "someurl.com",
+      "href": "https://www.tiktok.com/@flowception",
       "image": "https://simpleicons.org/icons/tiktok.svg"
     }
   ],
   "socials": [
     {
       "title": "Instagram",
-      "href": "https://www.instagram.com/flowception/"
+      "href": "https://www.instagram.com/flow.ception/"
     },
     {
       "title": "Github",
       "href": "https://www.github.com/flowception/"
+    },
+    {
+      "title": "TikTok",
+      "href": "https://www.tiktok.com/@flowception/"
     }
   ]
 }
