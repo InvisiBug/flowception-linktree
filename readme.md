@@ -6,3 +6,5 @@
 [Repo](https://github.com/InvisiBug/flowception-linktree)
 
 [Workflows](https://github.com/InvisiBug/flowception-linktree/actions)
+
+[Argo](https://192.168.1.61/applications/argocd/flowception-linktree)
