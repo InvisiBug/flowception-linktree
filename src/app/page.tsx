@@ -1,11 +1,12 @@
 import Image from "next/image";
 import data from "@/data/links.json";
+import AvatarIcon from "./AvatarIcon.png";
 // import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
 
 export default function Home() {
   return (
     <div className="drop-shadow- mx-auto mt-16 flex w-full flex-col items-center px-8">
-      <Image className="rounded-full" alt={data.name} src={data.avatar} width={96} height={96} />
+      <Image className="rounded-full" alt={data.name} src={AvatarIcon} width={96} height={96} />
 
       <h1 className="mb-8 mt-4 text-xl font-bold">{data.name}</h1>
 
