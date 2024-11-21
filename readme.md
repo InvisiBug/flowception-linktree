@@ -1,5 +1,6 @@
 # Flowception Linktree
 
+[![Live](https://github.com/InvisiBug/flowception-linktree/actions/workflows/live.yaml/badge.svg)](https://github.com/InvisiBug/flowception-linktree/actions/workflows/live.yaml&kill_cache=1)
 
 [Youtube Tutorial](https://youtu.be/eFzNekhVhmM?si=0hWMdbe4T5K5vJPP)
 
