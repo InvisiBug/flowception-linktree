@@ -24,7 +24,7 @@ body {
   height:100vh;
 
   /* https://www.joshwcomeau.com/gradient-generator/ */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     45deg,
     hsl(240deg 100% 20%) 0%,
     hsl(281deg 100% 21%) 8%,
@@ -39,5 +39,22 @@ body {
     hsl(40deg 100% 50%) 83%,
     hsl(48deg 100% 50%) 92%,
     hsl(55deg 100% 50%) 100%
+  ); */
+
+  background-image: linear-gradient(
+    40deg,
+    hsl(248deg 95% 15%) 0%,
+    hsl(237deg 77% 20%) 4%,
+    hsl(230deg 80% 23%) 9%,
+    hsl(223deg 88% 25%) 16%,
+    hsl(275deg 59% 26%) 23%,
+    hsl(308deg 76% 22%) 30%,
+    hsl(325deg 89% 24%) 38%,
+    hsl(331deg 100% 26%) 47%,
+    hsl(338deg 100% 29%) 56%,
+    hsl(345deg 99% 32%) 66%,
+    hsl(348deg 100% 37%) 76%,
+    hsl(353deg 100% 42%) 88%,
+    hsl(5deg 98% 47%) 100%
   );
 }
