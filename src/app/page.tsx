@@ -1,6 +1,7 @@
 import Image from "next/image";
 import data from "@/data/links.json";
 import AvatarIcon from "./AvatarIcon.png";
+import QR from "./QR.png";
 // import { InstagramIcon, TikTokIcon, GithubIcon } from "@/icons";
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
       {data.links.map((link) => {
         return <LinkCard key={link.title} {...link}></LinkCard>;
       })}
+
+      <Image className="rounded-sm" alt={data.name} src={QR} width={200} height={200} />
 
       {/* <div className="mt-8 flex items-center gap-4">
         {data.socials &&
