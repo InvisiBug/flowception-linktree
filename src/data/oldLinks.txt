@@ -1,0 +1,27 @@
+"socials": [
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/flow.ception/"
+    },
+    {
+      "title": "Github",
+      "href": "https://www.github.com/flowception/"
+    },
+    {
+      "title": "TikTok",
+      "href": "https://www.tiktok.com/@flowception/"
+    }
+  ]
+
+
+  {
+      "title": "Our website",
+      "href": "https://flowception.co.uk",
+      "image": "https://yt3.ggpht.com/yti/ANjgQV_gGVvNWYY_wQJRfwFBo1yXQ5R6mFw-EvI5Nm6XoDKc3cQX=s88-c-k-c0x00ffffff-no-rj"
+    },
+
+    {
+      "title": "Contact Staff Tutorials",
+      "href": "https://contactstafftutorials.com",
+      "image": "https://cdn-icons-png.flaticon.com/128/3135/3135773.png"
+    },
