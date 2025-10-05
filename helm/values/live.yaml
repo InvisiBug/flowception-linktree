@@ -2,7 +2,7 @@ name: flowception-linktree
 
 namespace: flowception
 env:
-  APP_VERSION: d183c96647ce777c9085c4b81a4dd868b2cb2f48
+  APP_VERSION: 52256064db427ef28ae38a42adfa4d1e38f88992
 
 deployment:
   - name: flowception-linktree
