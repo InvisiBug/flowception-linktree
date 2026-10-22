@@ -25,3 +25,21 @@
       "href": "https://contactstafftutorials.com",
       "image": "https://cdn-icons-png.flaticon.com/128/3135/3135773.png"
     },
+
+
+
+    {
+      "title": "Youtube",
+      "href": "https://www.youtube.com/channel/UCqTfIrY22Mw9YyMKM1wNNqg",
+      "image": "https://simpleicons.org/icons/youtube.svg"
+    },
+    {
+      "title": "Instagram",
+      "href": "https://www.instagram.com/flow.ception",
+      "image": "https://simpleicons.org/icons/instagram.svg"
+    },
+    {
+      "title": "TikTok",
+      "href": "https://www.tiktok.com/@flowception",
+      "image": "https://simpleicons.org/icons/tiktok.svg"
+    },
